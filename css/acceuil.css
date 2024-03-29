@@ -1,25 +1,34 @@
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #c5b79c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
 .content{
-    /* background-color: rgb(110, 101, 46); */
-    display: flex;
+  
+     background-color: rgb(255, 0, 0); 
+     margin-top: 90px; /* Pour éviter que le contenu ne soit masqué par la barre de navigation */
+    /* display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
+    align-items: center; */
+    /* height: 100vh; */
+ 
 }
 
 
-
-.mean{
-   
-    display:flex;
-    justify-content:space-evenly;
-
-    width: 100%;
-    
-}
 
 .search_ajouter{
+    /* background-color: chartreuse; */
     width: 100%;
 }
 
@@ -35,55 +44,58 @@
  margin: 3px;
 }
 
-.list_contacts .card{
-    height: 70vh;
+p{
+    margin: 0;
 }
+
+.list_contacts{
+  
+    background-color: aquamarine;
+ 
+}
+.list_contacts .card{
+    background-color: blue;
+    width: 30%;
+
+}
+
 
 .hr{
     width: 2px;
     background-color:#E5E5E5;
 }
 
-.Achiche_contact{
-    background-color: rgb(22, 203, 58);
-    width: 35%; 
+/*style de affichage de contact*/
+/* .Achiche_contact{
+    background-color: rgb(255, 5, 5);
+    width: 30%; 
+
   
-}
-
-.list_contacts{
-    background-color: crimson;
-    width: 35%;
-  
-}
-.list_contacts .contact{
-
-  background-color: antiquewhite;
-  display: flex;
-}
-.Achiche_contact .card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
+} */
 
 
-.contact p{
-    margin: 0;
-    align-self: flex-end;
-}
-.email,.telephone{
+
+/* .email,.telephone{
     display: flex;
     width: 100%;
- 
-    /* background-color: rgb(185, 166, 153); */
-  
+    margin-top: 15px;
 }
+.email img,.telephone img{
+   margin-right: 15px;
+} */
+
+
+
+
+
+
+
+
 
 
 
 #photo_personne{
-    width: 35px;
+    width: 60px;
   
 }
 /*with et height des icones*/

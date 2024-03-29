@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Louis",
+        "last": "Bishop"
+      },
+      "location": {
+        "street": {
+          "number": 6088,
+          "name": "The Green"
+        },
+        "city": "Stevenage",
+        "state": "Northumberland",
+        "country": "United Kingdom",
+        "postcode": "NO94 6YF",
+        "coordinates": {
+          "latitude": "-6.7972",
+          "longitude": "-4.8029"
+        },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "louis.bishop@example.com",
+      "login": {
+        "uuid": "a1b9ecb3-c61a-404b-809f-cb43315c72ff",
+        "username": "organiczebra782",
+        "password": "1971",
+        "salt": "YAdNcrSa",
+        "md5": "2292a1fd4dcc8390409eb775f3b521ec",
+        "sha1": "c897acf176d509641901c77070e1110fc3a8b6d8",
+        "sha256": "fc5c36ef12bf124b6af703547238430eedbe8de8c7d8e5363bec270f4215bd54"
+      },
+      "dob": {
+        "date": "1986-08-07T01:01:06.640Z",
+        "age": 37
+      },
+      "registered": {
+        "date": "2007-05-24T01:45:50.231Z",
+        "age": 16
+      },
+      "phone": "019467 66012",
+      "cell": "07747 951536",
+      "id": {
+        "name": "NINO",
+        "value": "KZ 19 89 52 X"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/21.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/21.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/21.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Vitryan",
+        "last": "Shmorgun"
+      },
+      "location": {
+        "street": {
+          "number": 2165,
+          "name": "Viktora Chmilenka"
+        },
+        "city": "Izyaslav",
+        "state": "Avtonomna Respublika Krim",
+        "country": "Ukraine",
+        "postcode": 21308,
+        "coordinates": {
+          "latitude": "61.9330",
+          "longitude": "-72.8341"
+        },
+        "timezone": {
+          "offset": "+7:00",
+          "description": "Bangkok, Hanoi, Jakarta"
+        }
+      },
+      "email": "vitryan.shmorgun@example.com",
+      "login": {
+        "uuid": "0a559e6a-d6aa-42ab-bb5f-32f0325dc56f",
+        "username": "tinyduck428",
+        "password": "running",
+        "salt": "ECJRPbeR",
+        "md5": "4d567dc388af31084b39ff3034b4e6f4",
+        "sha1": "0a1ba5248f1936ed1f18914d044a3a000b5143b9",
+        "sha256": "d852a3f0b7a11ca28bbe71b099d697cceaca4baf60c662d76bfc0d7df50b11f8"
+      },
+      "dob": {
+        "date": "1968-09-30T01:36:42.174Z",
+        "age": 55
+      },
+      "registered": {
+        "date": "2016-06-21T09:38:43.485Z",
+        "age": 7
+      },
+      "phone": "(098) U68-1917",
+      "cell": "(099) C43-6569",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/22.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/22.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/22.jpg"
+      },
+      "nat": "UA"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Elliot",
+        "last": "Young"
+      },
+      "location": {
+        "street": {
+          "number": 3580,
+          "name": "Richmond Ave"
+        },
+        "city": "Hudson",
+        "state": "Manitoba",
+        "country": "Canada",
+        "postcode": "H8D 5S6",
+        "coordinates": {
+          "latitude": "62.6761",
+          "longitude": "-160.9056"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "elliot.young@example.com",
+      "login": {
+        "uuid": "469a53f2-c15f-41f5-9678-0a759f69291f",
+        "username": "goldensnake626",
+        "password": "655321",
+        "salt": "6FYutKd8",
+        "md5": "8aa283a455d22e49a674e3ef4e414f5a",
+        "sha1": "6b4c74cee7ec2623850f2d6d7a4eb76e47bef114",
+        "sha256": "2f53dc5f43a4e974e1c79833d6d4250aec6d8e01667c83d4b3d79b5d8f87d8da"
+      },
+      "dob": {
+        "date": "1970-08-30T11:52:18.024Z",
+        "age": 53
+      },
+      "registered": {
+        "date": "2003-04-29T13:54:38.716Z",
+        "age": 20
+      },
+      "phone": "B77 G70-7111",
+      "cell": "T66 W29-1870",
+      "id": {
+        "name": "SIN",
+        "value": "759439664"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/78.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/78.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/78.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Namitha",
+        "last": "Banerjee"
+      },
+      "location": {
+        "street": {
+          "number": 4117,
+          "name": "Sitabuldi Main Rd"
+        },
+        "city": "Varanasi",
+        "state": "Rajasthan",
+        "country": "India",
+        "postcode": 83968,
+        "coordinates": {
+          "latitude": "46.9027",
+          "longitude": "-107.9966"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "namitha.banerjee@example.com",
+      "login": {
+        "uuid": "7ab09e42-d229-439a-b24c-9a1247c59929",
+        "username": "blackdog544",
+        "password": "bourbon",
+        "salt": "ysCWctpY",
+        "md5": "ca7020843474d3f0e631c5f3a9982421",
+        "sha1": "f6be91ce9291beadfe6b42cfa73c206621f10359",
+        "sha256": "31aaf94e56659ef68d3fb4ba8dd6d19cee6443ed8e14e9c981d8943a5af50c82"
+      },
+      "dob": {
+        "date": "1969-09-08T05:10:56.091Z",
+        "age": 54
+      },
+      "registered": {
+        "date": "2018-02-20T13:53:57.689Z",
+        "age": 6
+      },
+      "phone": "8744553147",
+      "cell": "7536224452",
+      "id": {
+        "name": "UIDAI",
+        "value": "987381037074"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/48.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/48.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+      },
+      "nat": "IN"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "مریم",
+        "last": "رضایی"
+      },
+      "location": {
+        "street": {
+          "number": 6792,
+          "name": "پارک لاله"
+        },
+        "city": "پاکدشت",
+        "state": "کردستان",
+        "country": "Iran",
+        "postcode": 65360,
+        "coordinates": {
+          "latitude": "-79.8233",
+          "longitude": "-47.4437"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "mrym.rdyy@example.com",
+      "login": {
+        "uuid": "ec6bf828-6920-4ca6-ac86-4398c60a88f6",
+        "username": "brownrabbit948",
+        "password": "gumby",
+        "salt": "iDYEkX5A",
+        "md5": "88bcc4d3865768d3a0256707272f90f2",
+        "sha1": "c7bd7a097325930c03b6e3f91d70894a8b511b83",
+        "sha256": "948e017c0a0084de46ff217e8673f960dc9cd690143c3dc59cf25650933afd8b"
+      },
+      "dob": {
+        "date": "1986-05-16T22:33:43.074Z",
+        "age": 37
+      },
+      "registered": {
+        "date": "2020-10-29T01:27:27.235Z",
+        "age": 3
+      },
+      "phone": "098-39788632",
+      "cell": "0914-361-2389",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/84.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/84.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/84.jpg"
+      },
+      "nat": "IR"
+    }
+  ],
+  "info": {
+    "seed": "e9e0321a89f17ef6",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}
