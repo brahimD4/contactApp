@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New contact</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/AjouteContact.css">
+</head>
+<body>
+
+    <div class="card">
+        <form id="form">
+
+                <div class="mb-3">
+                    <label for="FullName" class="form-label">Nom complet</label>
+                    <input type="text" class="form-control" id="FullName" aria-describedby="emailHelp" maxlength="15" >
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Telephone" class="form-label">Numero telephone</label>
+                    <input type="tle" class="form-control" id="Telephone" aria-describedby="emailHelp" maxlength="10" minlength="10">
+                    <div id="" class="form-text"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Email address</label>
+                    <input type="text" class="form-control" id="Email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                </div>
+
+                <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>choisir le sex</option>
+                        <option value="1">homme</option>
+                        <option value="2">Femme</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+        
+        </form>
+   </div>
+ 
+        <script src="../js/main.js"></script>
+</body>
+</html>

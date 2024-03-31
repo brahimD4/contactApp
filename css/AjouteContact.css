@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.card{
+
+padding: 20px;
+    width: 500px;
+}
