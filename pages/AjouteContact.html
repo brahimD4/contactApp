@@ -6,43 +6,107 @@
     <title>New contact</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/AjouteContact.css">
+ 
 </head>
 <body>
 
     <div class="card">
+
+      <a href="../index.html">retour</a>
         <form id="form">
 
                 <div class="mb-3">
                     <label for="FullName" class="form-label">Nom complet</label>
-                    <input type="text" class="form-control" id="FullName" aria-describedby="emailHelp" maxlength="15" >
+                    <input type="text" class="form-control" id="FullName" maxlength="15"required >
                     <div id="emailHelp" class="form-text"></div>
                 </div>
 
                 <div class="mb-3">
                     <label for="Telephone" class="form-label">Numero telephone</label>
-                    <input type="tle" class="form-control" id="Telephone" aria-describedby="emailHelp" maxlength="10" minlength="10">
+                    <input type="tel" class="form-control" id="Telephone" maxlength="10" minlength="10" required>
                     <div id="" class="form-text"></div>
                 </div>
 
                 <div class="mb-3">
                     <label for="Email" class="form-label">Email address</label>
-                    <input type="text" class="form-control" id="Email" aria-describedby="emailHelp">
+                    <input type="text" class="form-control" id="Email" required>
                     <div id="emailHelp" class="form-text"></div>
                 </div>
 
                 <div class="mb-3">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>choisir le sex</option>
-                        <option value="1">homme</option>
-                        <option value="2">Femme</option>
+                    <select id="gender" class="form-select" required>
+                        <option value="">choisir le sex</option>
+                        <option value="Homme">homme</option>
+                        <option value="Femme">Femme</option>
                     </select>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         
         </form>
    </div>
  
-        <script src="../js/main.js"></script>
+        <script>
+            const form = document.getElementById('form');
+const inputFullName=document.getElementById('FullName');
+const inputTelephone=document.getElementById('Telephone'); 
+const inputEmail=document.getElementById('Email');
+const inputGender=document.getElementById('gender');
+
+//si on clique l'un des champes
+
+inputEmail.onclick=function(){
+    inputEmail.style.border='';
+} 
+inputTelephone.onclick=function(){
+    inputTelephone.style.border='';
+}
+
+// pour la validation de formulaire
+var list_contactes=[];
+
+// var btnSubmit=document.getElementById('submit');
+
+
+form.onsubmit=function(event){
+ 
+      var valide_mail = /\w+@gmail.com\b/g ;
+      var valide_tele=/\b(06|07)\d{8}\b/g ;
+
+      valide_mail=valide_mail.test(inputEmail.value);
+      valide_tele=valide_tele.test(inputTelephone.value);
+
+      if(valide_mail==true && valide_tele==true){
+        event.preventDefault();
+         console.log('valid');
+      
+         let contact={
+          name:inputFullName.value,
+          telephone:inputTelephone.value,
+          email:inputEmail.value,
+          gender:inputGender.value
+        };
+        list_contactes.push(contact);
+        localStorage.setItem('les_contactes',JSON.stringify(list_contactes));
+       
+   
+        console.log(inputGender.value);
+      }else{
+        console.log(valide_tele);
+
+        console.log(valide_mail);
+
+        if(valide_mail==false){
+          inputEmail.style.border='1px solid red';
+        }
+        if(valide_tele==false){
+          inputTelephone.style.border='1px solid red';
+        }
+        // event.preventDefault();
+      }
+
+}
+
+        </script>
 </body>
 </html>
